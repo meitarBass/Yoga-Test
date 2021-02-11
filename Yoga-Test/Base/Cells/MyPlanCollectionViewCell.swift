@@ -131,8 +131,6 @@ class MyPlanCollectionViewCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
-    
     private func setUpUI() {
         addSubviews()
         makeConstraints()

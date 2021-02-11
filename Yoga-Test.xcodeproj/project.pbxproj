@@ -22,7 +22,7 @@
 		A904E00C25D5833B00BAC08F /* MyPlanInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */; };
 		A904E00F25D5836C00BAC08F /* sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = A904E00E25D5836C00BAC08F /* sessions.json */; };
 		A904E01225D5858500BAC08F /* MyPlanInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E01125D5858500BAC08F /* MyPlanInteractorInput.swift */; };
-		A904E01625D58A2200BAC08F /* SessionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */; };
+		A904E01625D58A2200BAC08F /* MyPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E01525D58A2200BAC08F /* MyPlanCollectionViewCell.swift */; };
 		A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */; };
 		A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */; };
 		A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E225D572CD00E26551 /* AppInteractor.swift */; };
@@ -46,7 +46,7 @@
 		A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanInteractor.swift; sourceTree = "<group>"; };
 		A904E00E25D5836C00BAC08F /* sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sessions.json; sourceTree = "<group>"; };
 		A904E01125D5858500BAC08F /* MyPlanInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanInteractorInput.swift; sourceTree = "<group>"; };
-		A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A904E01525D58A2200BAC08F /* MyPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanCollectionViewCell.swift; sourceTree = "<group>"; };
 		A9A9B0DB25D572CD00E26551 /* Yoga-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A904DFE225D577D800BAC08F /* SessionCell.swift */,
-				A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */,
+				A904E01525D58A2200BAC08F /* MyPlanCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -382,7 +382,7 @@
 				A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */,
 				A904DFFB25D5791B00BAC08F /* MyPlanPresenterProtocols.swift in Sources */,
 				A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */,
-				A904E01625D58A2200BAC08F /* SessionCollectionViewCell.swift in Sources */,
+				A904E01625D58A2200BAC08F /* MyPlanCollectionViewCell.swift in Sources */,
 				A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,6 +41,7 @@ extension MyPlanCollectionManager: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        print("Got")
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyPlanCollectionViewCell.reuseIdentifier, for: indexPath) as? MyPlanCollectionViewCell else {
             return UICollectionViewCell()
         }

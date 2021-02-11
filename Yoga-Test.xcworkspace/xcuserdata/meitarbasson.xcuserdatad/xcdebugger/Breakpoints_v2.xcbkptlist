@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "673C2230-518C-431B-A1E1-607142E632DF"
+            uuid = "F79ADABE-8CA2-4DE3-B84E-60D0F44CE278"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Yoga-Test/Modules/MyPlan/Manager/MyPlanCollectionManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "collectionView(_:cellForItemAt:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setUpCollectionView(collectionView:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
