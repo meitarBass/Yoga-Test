@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EBCB4334A61ADBCFEFDC06C /* Pods_Yoga_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924C9B5A735399916C7DF6B7 /* Pods_Yoga_Test.framework */; };
+		A904DFD325D5743300BAC08F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFD225D5743300BAC08F /* AppCoordinator.swift */; };
+		A904DFDD25D5773800BAC08F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFDC25D5773800BAC08F /* Session.swift */; };
+		A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE225D577D800BAC08F /* SessionCell.swift */; };
+		A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */; };
 		A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */; };
 		A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */; };
-		A9A9B0E325D572CD00E26551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E225D572CD00E26551 /* ViewController.swift */; };
-		A9A9B0E625D572CD00E26551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A9B0E425D572CD00E26551 /* Main.storyboard */; };
+		A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E225D572CD00E26551 /* AppInteractor.swift */; };
 		A9A9B0E825D572CF00E26551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A9B0E725D572CF00E26551 /* Assets.xcassets */; };
 		A9A9B0EB25D572CF00E26551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A9B0E925D572CF00E26551 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		924C9B5A735399916C7DF6B7 /* Pods_Yoga_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yoga_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A904DFD225D5743300BAC08F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A904DFDC25D5773800BAC08F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A904DFE225D577D800BAC08F /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
+		A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
 		A9A9B0DB25D572CD00E26551 /* Yoga-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9A9B0E225D572CD00E26551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9A9B0E525D572CD00E26551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9A9B0E225D572CD00E26551 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		A9A9B0E725D572CF00E26551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A9B0EA25D572CF00E26551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A9B0EC25D572CF00E26551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0B12782BA2BB20A5309AF7 /* Pods-Yoga-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoga-Test.debug.xcconfig"; path = "Target Support Files/Pods-Yoga-Test/Pods-Yoga-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		CECCB2D48DAB4958964FC1BD /* Pods-Yoga-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoga-Test.release.xcconfig"; path = "Target Support Files/Pods-Yoga-Test/Pods-Yoga-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBCB4334A61ADBCFEFDC06C /* Pods_Yoga_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863F43C0405BB4497F8DA28F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				924C9B5A735399916C7DF6B7 /* Pods_Yoga_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953EF8BAE45D589894E324AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B12782BA2BB20A5309AF7 /* Pods-Yoga-Test.debug.xcconfig */,
+				CECCB2D48DAB4958964FC1BD /* Pods-Yoga-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A904DFD125D5742800BAC08F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFD525D5746600BAC08F /* Delegates */,
+				A9A9B0E225D572CD00E26551 /* AppInteractor.swift */,
+				A904DFD225D5743300BAC08F /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A904DFD525D5746600BAC08F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */,
+				A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		A904DFDA25D5772700BAC08F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFE125D577C400BAC08F /* Extensions */,
+				A904DFE025D577AE00BAC08F /* Cells */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A904DFDB25D5772A00BAC08F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFDC25D5773800BAC08F /* Session.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A904DFE025D577AE00BAC08F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFE225D577D800BAC08F /* SessionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A904DFE125D577C400BAC08F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A9A9B0D225D572CD00E26551 = {
 			isa = PBXGroup;
 			children = (
 				A9A9B0DD25D572CD00E26551 /* Yoga-Test */,
 				A9A9B0DC25D572CD00E26551 /* Products */,
+				953EF8BAE45D589894E324AA /* Pods */,
+				863F43C0405BB4497F8DA28F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +138,9 @@
 		A9A9B0DD25D572CD00E26551 /* Yoga-Test */ = {
 			isa = PBXGroup;
 			children = (
-				A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */,
-				A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */,
-				A9A9B0E225D572CD00E26551 /* ViewController.swift */,
-				A9A9B0E425D572CD00E26551 /* Main.storyboard */,
+				A904DFDB25D5772A00BAC08F /* Entities */,
+				A904DFDA25D5772700BAC08F /* Base */,
+				A904DFD125D5742800BAC08F /* App */,
 				A9A9B0E725D572CF00E26551 /* Assets.xcassets */,
 				A9A9B0E925D572CF00E26551 /* LaunchScreen.storyboard */,
 				A9A9B0EC25D572CF00E26551 /* Info.plist */,
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9A9B0EF25D572CF00E26551 /* Build configuration list for PBXNativeTarget "Yoga-Test" */;
 			buildPhases = (
+				ADBB258A02180593EB61E1B2 /* [CP] Check Pods Manifest.lock */,
 				A9A9B0D725D572CD00E26551 /* Sources */,
 				A9A9B0D825D572CD00E26551 /* Frameworks */,
 				A9A9B0D925D572CD00E26551 /* Resources */,
+				529451447B375E8AFDD30A67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +209,63 @@
 			files = (
 				A9A9B0EB25D572CF00E26551 /* LaunchScreen.storyboard in Resources */,
 				A9A9B0E825D572CF00E26551 /* Assets.xcassets in Resources */,
-				A9A9B0E625D572CD00E26551 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529451447B375E8AFDD30A67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoga-Test/Pods-Yoga-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoga-Test/Pods-Yoga-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoga-Test/Pods-Yoga-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBB258A02180593EB61E1B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yoga-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9A9B0D725D572CD00E26551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A9B0E325D572CD00E26551 /* ViewController.swift in Sources */,
+				A904DFDD25D5773800BAC08F /* Session.swift in Sources */,
+				A904DFD325D5743300BAC08F /* AppCoordinator.swift in Sources */,
+				A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */,
+				A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */,
+				A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */,
 				A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */,
 				A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +274,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A9A9B0E425D572CD00E26551 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A9B0E525D572CD00E26551 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9A9B0E925D572CF00E26551 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +403,7 @@
 		};
 		A9A9B0F025D572CF00E26551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0B12782BA2BB20A5309AF7 /* Pods-Yoga-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +423,7 @@
 		};
 		A9A9B0F125D572CF00E26551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECCB2D48DAB4958964FC1BD /* Pods-Yoga-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
