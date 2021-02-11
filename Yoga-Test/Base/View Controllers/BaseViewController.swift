@@ -17,7 +17,7 @@ class BaseViewController: UIViewController {
         
     }
     
-    func setupUI() {
+    private func setupUI() {
         self.addSubviews()
         self.makeConstraints()
     }

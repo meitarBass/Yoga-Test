@@ -41,7 +41,6 @@ extension MyPlanCollectionManager: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        print("Got")
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyPlanCollectionViewCell.reuseIdentifier, for: indexPath) as? MyPlanCollectionViewCell else {
             return UICollectionViewCell()
         }
@@ -53,7 +52,8 @@ extension MyPlanCollectionManager: UICollectionViewDataSource {
 
 extension MyPlanCollectionManager: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 250, height: 300)
+        return CGSize(width: collectionView.frame.size.width - 40,
+                      height: collectionView.frame.size.width - 40)
     }
 }
 

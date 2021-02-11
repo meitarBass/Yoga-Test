@@ -65,7 +65,7 @@ class MyPlanViewController: BaseViewController {
     
     private lazy var collectionView: UICollectionView = {
         let flowLayout = UICollectionViewFlowLayout()
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout    )
         collectionView.keyboardDismissMode = .interactive
         collectionView.backgroundColor = .clear
         return collectionView
@@ -78,8 +78,7 @@ class MyPlanViewController: BaseViewController {
         presenter?.viewDidLoad()
     }
     
-    override func setupUI() {
-        super.setupUI()
+    func setupUI() {
         addSubviews()
         makeConstraints()
         
@@ -106,7 +105,9 @@ class MyPlanViewController: BaseViewController {
         }
         
         collectionView.snp.makeConstraints { (make) in
-            make.centerX.centerY.equalToSuperview()
+            make.top.equalTo(labelStack.snp.bottom)
+            make.bottom.equalToSuperview()
+            make.leading.trailing.equalToSuperview()
         }
         
         lineView.snp.makeConstraints { (make) in

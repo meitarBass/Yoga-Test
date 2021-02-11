@@ -10,7 +10,6 @@
 		6EBCB4334A61ADBCFEFDC06C /* Pods_Yoga_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924C9B5A735399916C7DF6B7 /* Pods_Yoga_Test.framework */; };
 		A904DFD325D5743300BAC08F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFD225D5743300BAC08F /* AppCoordinator.swift */; };
 		A904DFDD25D5773800BAC08F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFDC25D5773800BAC08F /* Session.swift */; };
-		A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE225D577D800BAC08F /* SessionCell.swift */; };
 		A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */; };
 		A904DFF325D578EF00BAC08F /* MyPlanAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFF225D578EF00BAC08F /* MyPlanAssembly.swift */; };
 		A904DFF725D578FB00BAC08F /* MyPlanPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */; };
@@ -34,7 +33,6 @@
 		924C9B5A735399916C7DF6B7 /* Pods_Yoga_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yoga_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A904DFD225D5743300BAC08F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		A904DFDC25D5773800BAC08F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		A904DFE225D577D800BAC08F /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
 		A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
 		A904DFF225D578EF00BAC08F /* MyPlanAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanAssembly.swift; sourceTree = "<group>"; };
 		A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanPresenter.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 		A904DFE025D577AE00BAC08F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				A904DFE225D577D800BAC08F /* SessionCell.swift */,
 				A904E01525D58A2200BAC08F /* MyPlanCollectionViewCell.swift */,
 			);
 			path = Cells;
@@ -156,7 +153,6 @@
 				A904DFED25D578BB00BAC08F /* Manager */,
 				A904DFEE25D578C000BAC08F /* Presenter */,
 				A904DFEF25D578C300BAC08F /* Interactor */,
-				A904DFF025D578C800BAC08F /* Router */,
 				A904DFF125D578CC00BAC08F /* Assembly */,
 			);
 			path = MyPlan;
@@ -195,13 +191,6 @@
 				A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */,
 			);
 			path = Interactor;
-			sourceTree = "<group>";
-		};
-		A904DFF025D578C800BAC08F /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		A904DFF125D578CC00BAC08F /* Assembly */ = {
@@ -377,7 +366,6 @@
 				A904E00925D57CFA00BAC08F /* BaseViewController.swift in Sources */,
 				A904E00425D5793900BAC08F /* MyPlanViewController.swift in Sources */,
 				A904DFD325D5743300BAC08F /* AppCoordinator.swift in Sources */,
-				A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */,
 				A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */,
 				A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */,
 				A904DFFB25D5791B00BAC08F /* MyPlanPresenterProtocols.swift in Sources */,
