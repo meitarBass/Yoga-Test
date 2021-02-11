@@ -12,6 +12,17 @@
 		A904DFDD25D5773800BAC08F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFDC25D5773800BAC08F /* Session.swift */; };
 		A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE225D577D800BAC08F /* SessionCell.swift */; };
 		A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */; };
+		A904DFF325D578EF00BAC08F /* MyPlanAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFF225D578EF00BAC08F /* MyPlanAssembly.swift */; };
+		A904DFF725D578FB00BAC08F /* MyPlanPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */; };
+		A904DFFB25D5791B00BAC08F /* MyPlanPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFFA25D5791B00BAC08F /* MyPlanPresenterProtocols.swift */; };
+		A904DFFE25D5792900BAC08F /* MyPlanCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904DFFD25D5792900BAC08F /* MyPlanCollectionManager.swift */; };
+		A904E00125D5793200BAC08F /* MyPlanViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E00025D5793200BAC08F /* MyPlanViewInput.swift */; };
+		A904E00425D5793900BAC08F /* MyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E00325D5793900BAC08F /* MyPlanViewController.swift */; };
+		A904E00925D57CFA00BAC08F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E00825D57CFA00BAC08F /* BaseViewController.swift */; };
+		A904E00C25D5833B00BAC08F /* MyPlanInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */; };
+		A904E00F25D5836C00BAC08F /* sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = A904E00E25D5836C00BAC08F /* sessions.json */; };
+		A904E01225D5858500BAC08F /* MyPlanInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E01125D5858500BAC08F /* MyPlanInteractorInput.swift */; };
+		A904E01625D58A2200BAC08F /* SessionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */; };
 		A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */; };
 		A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */; };
 		A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9B0E225D572CD00E26551 /* AppInteractor.swift */; };
@@ -25,6 +36,17 @@
 		A904DFDC25D5773800BAC08F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A904DFE225D577D800BAC08F /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
 		A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		A904DFF225D578EF00BAC08F /* MyPlanAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanAssembly.swift; sourceTree = "<group>"; };
+		A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanPresenter.swift; sourceTree = "<group>"; };
+		A904DFFA25D5791B00BAC08F /* MyPlanPresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanPresenterProtocols.swift; sourceTree = "<group>"; };
+		A904DFFD25D5792900BAC08F /* MyPlanCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanCollectionManager.swift; sourceTree = "<group>"; };
+		A904E00025D5793200BAC08F /* MyPlanViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanViewInput.swift; sourceTree = "<group>"; };
+		A904E00325D5793900BAC08F /* MyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanViewController.swift; sourceTree = "<group>"; };
+		A904E00825D57CFA00BAC08F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanInteractor.swift; sourceTree = "<group>"; };
+		A904E00E25D5836C00BAC08F /* sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sessions.json; sourceTree = "<group>"; };
+		A904E01125D5858500BAC08F /* MyPlanInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanInteractorInput.swift; sourceTree = "<group>"; };
+		A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCollectionViewCell.swift; sourceTree = "<group>"; };
 		A9A9B0DB25D572CD00E26551 /* Yoga-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A9B0DE25D572CD00E26551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A9B0E025D572CD00E26551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +109,7 @@
 		A904DFDA25D5772700BAC08F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				A904E00725D57CEC00BAC08F /* View Controllers */,
 				A904DFE125D577C400BAC08F /* Extensions */,
 				A904DFE025D577AE00BAC08F /* Cells */,
 			);
@@ -105,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A904DFE225D577D800BAC08F /* SessionCell.swift */,
+				A904E01525D58A2200BAC08F /* SessionCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -115,6 +139,85 @@
 				A904DFE625D5781300BAC08F /* UICollectionViewCell+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A904DFEA25D5787B00BAC08F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFEB25D5788C00BAC08F /* MyPlan */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A904DFEB25D5788C00BAC08F /* MyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFEC25D578B700BAC08F /* View */,
+				A904DFED25D578BB00BAC08F /* Manager */,
+				A904DFEE25D578C000BAC08F /* Presenter */,
+				A904DFEF25D578C300BAC08F /* Interactor */,
+				A904DFF025D578C800BAC08F /* Router */,
+				A904DFF125D578CC00BAC08F /* Assembly */,
+			);
+			path = MyPlan;
+			sourceTree = "<group>";
+		};
+		A904DFEC25D578B700BAC08F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A904E00325D5793900BAC08F /* MyPlanViewController.swift */,
+				A904E00025D5793200BAC08F /* MyPlanViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A904DFED25D578BB00BAC08F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFFD25D5792900BAC08F /* MyPlanCollectionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A904DFEE25D578C000BAC08F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */,
+				A904DFFA25D5791B00BAC08F /* MyPlanPresenterProtocols.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A904DFEF25D578C300BAC08F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A904E01125D5858500BAC08F /* MyPlanInteractorInput.swift */,
+				A904E00B25D5833B00BAC08F /* MyPlanInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A904DFF025D578C800BAC08F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A904DFF125D578CC00BAC08F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A904DFF225D578EF00BAC08F /* MyPlanAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A904E00725D57CEC00BAC08F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A904E00825D57CFA00BAC08F /* BaseViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		A9A9B0D225D572CD00E26551 = {
@@ -138,9 +241,11 @@
 		A9A9B0DD25D572CD00E26551 /* Yoga-Test */ = {
 			isa = PBXGroup;
 			children = (
+				A904E00E25D5836C00BAC08F /* sessions.json */,
 				A904DFDB25D5772A00BAC08F /* Entities */,
 				A904DFDA25D5772700BAC08F /* Base */,
 				A904DFD125D5742800BAC08F /* App */,
+				A904DFEA25D5787B00BAC08F /* Modules */,
 				A9A9B0E725D572CF00E26551 /* Assets.xcassets */,
 				A9A9B0E925D572CF00E26551 /* LaunchScreen.storyboard */,
 				A9A9B0EC25D572CF00E26551 /* Info.plist */,
@@ -208,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A9B0EB25D572CF00E26551 /* LaunchScreen.storyboard in Resources */,
+				A904E00F25D5836C00BAC08F /* sessions.json in Resources */,
 				A9A9B0E825D572CF00E26551 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,12 +367,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A904E00125D5793200BAC08F /* MyPlanViewInput.swift in Sources */,
+				A904DFF325D578EF00BAC08F /* MyPlanAssembly.swift in Sources */,
+				A904E01225D5858500BAC08F /* MyPlanInteractorInput.swift in Sources */,
+				A904DFF725D578FB00BAC08F /* MyPlanPresenter.swift in Sources */,
+				A904DFFE25D5792900BAC08F /* MyPlanCollectionManager.swift in Sources */,
 				A904DFDD25D5773800BAC08F /* Session.swift in Sources */,
+				A904E00C25D5833B00BAC08F /* MyPlanInteractor.swift in Sources */,
+				A904E00925D57CFA00BAC08F /* BaseViewController.swift in Sources */,
+				A904E00425D5793900BAC08F /* MyPlanViewController.swift in Sources */,
 				A904DFD325D5743300BAC08F /* AppCoordinator.swift in Sources */,
 				A904DFE325D577D800BAC08F /* SessionCell.swift in Sources */,
 				A9A9B0E325D572CD00E26551 /* AppInteractor.swift in Sources */,
 				A904DFE725D5781300BAC08F /* UICollectionViewCell+Extensions.swift in Sources */,
+				A904DFFB25D5791B00BAC08F /* MyPlanPresenterProtocols.swift in Sources */,
 				A9A9B0DF25D572CD00E26551 /* AppDelegate.swift in Sources */,
+				A904E01625D58A2200BAC08F /* SessionCollectionViewCell.swift in Sources */,
 				A9A9B0E125D572CD00E26551 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
