@@ -19,12 +19,12 @@ class MyPlanAssembly {
         
         view.presenter = preseneter
         
-//        collectionManager.delegate = preseneter
+        collectionManager.delegate = preseneter
 //        searchBarManager.delegate = preseneter
         
         preseneter.view = view
         preseneter.interactor = interactor
-//        preseneter.collectionManager = collectionManager
+        preseneter.collectionManager = collectionManager
         
         interactor.presenter = preseneter
         

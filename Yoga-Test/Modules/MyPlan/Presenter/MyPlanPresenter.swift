@@ -21,7 +21,7 @@ extension MyPlanPresenter: MyPlanPresenterProtocol {
 
 extension MyPlanPresenter: MyPlanPresenterInput {
     func loadJsonSuccess(data: [Array]) {
-        print(data)
+        collectionManager?.setupSessions(session: data)
     }
     
     func handleError(error: Error) {
@@ -29,7 +29,7 @@ extension MyPlanPresenter: MyPlanPresenterInput {
     }
 }
 
-extension MyPlanPresenter: DiscoverCollectionViewManagerDelegate {
+extension MyPlanPresenter: MyPlanCollectionViewManagerDelegate {
     
 }
 

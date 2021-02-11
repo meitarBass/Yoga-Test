@@ -182,8 +182,8 @@
 		A904DFEE25D578C000BAC08F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */,
 				A904DFFA25D5791B00BAC08F /* MyPlanPresenterProtocols.swift */,
+				A904DFF625D578FB00BAC08F /* MyPlanPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";

@@ -10,7 +10,7 @@ import Foundation
 // view to presenter
 protocol MyPlanPresenterProtocol: class {
     func viewDidLoad()
-//    var collectionManager: MyPlanCollectionViewManagerProtocol? { get set }
+    var collectionManager: MyPlanCollectionViewManagerProtocol? { get set }
 }
 
 // interactor to presenter
@@ -21,6 +21,6 @@ protocol MyPlanPresenterInput: class {
 
 
 //manager to presenter
-protocol DiscoverCollectionViewManagerDelegate: class {
+protocol MyPlanCollectionViewManagerDelegate: class {
     
 }

@@ -63,6 +63,14 @@ class MyPlanViewController: BaseViewController {
         return stackView
     }()
     
+    private lazy var collectionView: UICollectionView = {
+        let flowLayout = UICollectionViewFlowLayout()
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
+        collectionView.keyboardDismissMode = .interactive
+        collectionView.backgroundColor = .clear
+        return collectionView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
@@ -74,12 +82,15 @@ class MyPlanViewController: BaseViewController {
         super.setupUI()
         addSubviews()
         makeConstraints()
+        
+        self.presenter?.collectionManager?.setUpCollectionView(collectionView: self.collectionView)
     }
     
     override func addSubviews() {
         super.addSubviews()
         self.view.addSubview(bgImage)
         self.view.addSubview(labelStack)
+        self.view.addSubview(collectionView)
     }
     
     override func makeConstraints() {
@@ -92,6 +103,10 @@ class MyPlanViewController: BaseViewController {
             make.top.equalTo(self.view.safeAreaLayoutGuide.snp.topMargin).inset(36)
             make.centerX.equalToSuperview()
             make.width.equalToSuperview().multipliedBy(0.3)
+        }
+        
+        collectionView.snp.makeConstraints { (make) in
+            make.centerX.centerY.equalToSuperview()
         }
         
         lineView.snp.makeConstraints { (make) in
